@@ -12,7 +12,7 @@ gem 'rails', '4.1.12'
 
 # Specify a sprockets version due to security issue
 # See https://groups.google.com/forum/#!topic/rubyonrails-security/doAVp0YaTqY
-gem 'sprockets', '~> 2.12.3'
+gem 'sprockets', '~> 2.12.5'
 
 # Default values for AR models
 gem "default_value_for", "~> 3.0.0"
@@ -122,7 +122,7 @@ end
 # State machine
 gem "state_machine", '~> 1.2.0'
 # Run events after state machine commits
-gem 'after_commit_queue'
+gem 'after_commit_queue', '>= 1.1.0'
 
 # Issue tags
 gem 'acts-as-taggable-on', '~> 3.4'
@@ -194,7 +194,7 @@ gem 'mousetrap-rails', '~> 1.4.6'
 # Detect and convert string character encoding
 gem 'charlock_holmes', '~> 0.6.9.4'
 
-gem "sass-rails", '~> 4.0.5'
+gem "sass-rails", "~> 4.0.5"
 gem "coffee-rails", '~> 4.1.0'
 gem "uglifier", '~> 2.3.2'
 gem 'turbolinks', '~> 2.5.0'
