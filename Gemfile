@@ -306,9 +306,9 @@ gem 'oauth2', '~> 1.0.0'
 gem "paranoia", "~> 2.0"
 
 group :development, :test do
-  gem 'guard-rspec', '~> 4.2.0'
+  gem 'guard-rspec', '~> 4.2.10'
 
   gem 'rb-fsevent', require: darwin_only('rb-fsevent')
   gem 'growl',      require: darwin_only('growl')
-  gem 'rb-inotify', require: linux_only('rb-inotify')
+  gem 'rb-inotify', '0.9.5'
 end
