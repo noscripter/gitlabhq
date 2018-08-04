@@ -65,7 +65,7 @@ gem 'gollum-lib', '~> 4.0.2'
 gem "gitlab-linguist", "~> 3.0.1", require: "linguist"
 
 # API
-gem 'grape',        '~> 0.6.1'
+gem 'grape', '~> 1.1.0'
 gem 'grape-entity', '~> 0.4.2'
 gem 'rack-cors',    '~> 0.4.0', require: 'rack/cors'
 
@@ -286,7 +286,7 @@ group :production do
 end
 
 gem "newrelic_rpm", '~> 3.9.4.245'
-gem 'newrelic-grape'
+gem 'newrelic-grape', '>= 2.0.0'
 
 gem 'octokit', '~> 3.7.0'
 
