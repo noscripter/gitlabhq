@@ -67,7 +67,7 @@ gem "gitlab-linguist", "~> 3.0.1", require: "linguist"
 # API
 gem 'grape',        '~> 0.6.1'
 gem 'grape-entity', '~> 0.4.2'
-gem 'rack-cors',    '~> 0.4.0', require: 'rack/cors'
+gem 'rack-cors', '0.4.1'
 
 # Format dates and times
 # based on human-friendly examples
